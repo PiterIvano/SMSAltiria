@@ -27,6 +27,6 @@ try:
   print("----------------Chicos este es mi ultimo escript----------")
 except (requests.exceptions.RequestException,
   clx.xms.exceptions.ApiException) as ex:
-  print("Error de envio por favor intente mas tarde)
+  print("Error de envio por favor intente mas tarde")
 
 
