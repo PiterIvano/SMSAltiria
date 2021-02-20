@@ -1,11 +1,11 @@
 import clx.xms
 import requests
-print("----------------------------------------------------------")
-print("-----------------Creado por Piter-------------------------")
-print("----------------------------------------------------------")
-print("----------------------------------------------------------")
-print("------------------Sk es puto------------------------------")
-print("----------------------------------------------------------")
+print("------------------------------------------------")
+print("-----------------Creado por Piter---------------")
+print("------------------------------------------------")
+print("------------------------------------------------")
+print("---------------Sk es puto-----------------------")
+print("------------------------------------------------")
 
 
 en = input("escriba su numero con la entrada de pais sin el + -> ")
@@ -22,10 +22,11 @@ create.body = te
 
 try:
   batch = client.create_batch(create)
+  print ("Su sms se a enviado")
+  print("----------------------------------------------------------")
+  print("----------------Chicos este es mi ultimo escript----------")
 except (requests.exceptions.RequestException,
   clx.xms.exceptions.ApiException) as ex:
-  print('Failed to communicate with XMS: %s' % str(ex))
+  print("Error de envio por favor intente mas tarde)
 
-print ("Su sms se a enviado")
-print("----------------------------------------------------------")
-print("----------------Chicos este es mi ultimo escript----------")
+
