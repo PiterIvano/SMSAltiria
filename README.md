@@ -1,22 +1,5 @@
-# sms
+# smsAltiria
 
-pasos instalar paquetes
+Este es el codigo para poder hacer el uso de la api altiria en nuestros proyectos
 
-pkg install python -y
-
-pip install clx-sdk-xms
-
-pip install requests
-
-
-
-
-------------------------------------
-
-
-git clone https://github.com/Hidden-parker/sms
-
-cd sms
-
-chmod +xw
-python sms.py
+lo unico que tienes que hacer es modificar el login y pas
